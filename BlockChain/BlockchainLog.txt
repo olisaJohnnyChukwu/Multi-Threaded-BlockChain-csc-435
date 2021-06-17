@@ -1,0 +1,336 @@
+ojc@Olisas-Air-2 ~ % cd /Users/ojc/Desktop/test/BlockChain   
+ojc@Olisas-Air-2 BlockChain % javac -cp "gson-2.8.2.jar" BlockChain.java 
+ojc@Olisas-Air-2 BlockChain % java -cp ".:gson-2.8.2.jar" BlockChain 0
+Process 0 private key generated 
+Starting the Unverified Block Server input thread using 4820
+Starting Key Server input thread using 4710
+Starting the Blockchain server input thread using 4930
+Timestamp: Thu Mar 04 00:21:39 GMT 2021 at process 0
+Timestamp: Thu Mar 04 00:21:40 GMT 2021 at process 0
+Timestamp: Thu Mar 04 00:21:41 GMT 2021 at process 0
+Timestamp: Thu Mar 04 00:21:42 GMT 2021 at process 0
+ Dummy block added 
+Recieved process 0  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 129937058056757562075002078723186468903995042303294653866724252142319866910986199051897388602391944356745069021225849295206457361284729909522092771909192334386908988606219304609704504012192582240872645119850173166632963771152193038060158699879024055193185156455860899278420110520695750433647084264078050554061
+  public exponent: 65537
+Recieved process 1  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 112478990040032612778611492383397151068199862313163600209959937213037078058690714979620868852323958056442953532905885994307201301127031946264234183939545061724426276457584777818383901553192878901831669816372649346726072982455012072326908653502670017339927770965255671364896314677208958315726409074121387856841
+  public exponent: 65537
+Recieved process 2  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 94135326648149995172927188674368122021019055187670648137732859880882842124435480572771186990571935160798882813952685066676034260019653047055440767532123270719275249074237967377446787652208696569344700248537324491057356229181938777133747791080371145072419406137282151036160284296239778301868070166881573389231
+  public exponent: 65537
+1 BLOCKS sent
+2 BLOCKS sent
+3 BLOCKS sent
+4 BLOCKS sent
+5 BLOCKS sent
+6 BLOCKS sent
+7 BLOCKS sent
+8 BLOCKS sent
+9 BLOCKS sent
+10 BLOCKS sent
+11 BLOCKS sent
+12 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:40 GMT 2021 Joe Blow from 0
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Julie Wilson from 0
+Received UVB: Thu Mar 04 00:21:39 GMT 2021 John Smith from 0
+3  recieved
+1  recieved
+2  recieved
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wayne Blaine from 0
+4  recieved
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Rita Vita from 1
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wei Xu from 1
+5  recieved
+6  recieved
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Sally McCutty from 1
+7  recieved
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 Bruce Lee from 1
+8  recieved
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Abraham Lincoln from 2
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Helen Keller from 2
+9  recieved
+10  recieved
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 John Kennedy from 2
+11  recieved
+Received UVB: Thu Mar 04 00:21:45 GMT 2021 Joe DiMaggio from 2
+12  recieved
+Starting the Unverified Block Priority Queue Consumer thread.
+
+John Smith Thu Mar 04 00:21:39 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....18308 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: c9e1bc
+John Smith verified by 0
+ ADDING BLOCK TO blockChain...... 
+Joe Blow Thu Mar 04 00:21:40 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....2115 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: fea9a0
+Rita Vita Thu Mar 04 00:21:41 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....3873 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 0ba882
+Rita Vita verified by 0
+ ADDING BLOCK TO blockChain...... 
+Julie Wilson Thu Mar 04 00:21:41 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....19362 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: e6e570
+Wayne Blaine Thu Mar 04 00:21:42 GMT 2021
+Helen Keller Thu Mar 04 00:21:42 GMT 2021
+Wei Xu Thu Mar 04 00:21:42 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....17648 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 5e1a95
+Wei Xu verified by 0
+ ADDING BLOCK TO blockChain...... 
+Abraham Lincoln Thu Mar 04 00:21:43 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....5796 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: e6190b
+Sally McCutty Thu Mar 04 00:21:43 GMT 2021
+Bruce Lee Thu Mar 04 00:21:44 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....419 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 70359b
+ Already in blockChain...... 
+John Kennedy Thu Mar 04 00:21:44 GMT 2021
+Joe DiMaggio Thu Mar 04 00:21:45 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....16093 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: e58449
+
+
+Last login: Thu Mar  4 00:16:33 on ttys006
+ojc@Olisas-Air-2 ~ % cd /Users/ojc/Desktop/test/BlockChain 
+ojc@Olisas-Air-2 BlockChain % java -cp ".:gson-2.8.2.jar" BlockChain 1
+Process 1 private key generated 
+Starting Key Server input thread using 4711
+Starting the Blockchain server input thread using 4931
+Starting the Unverified Block Server input thread using 4821
+Timestamp: Thu Mar 04 00:21:40 GMT 2021 at process 1
+Timestamp: Thu Mar 04 00:21:42 GMT 2021 at process 1
+Timestamp: Thu Mar 04 00:21:43 GMT 2021 at process 1
+Timestamp: Thu Mar 04 00:21:44 GMT 2021 at process 1
+ Dummy block added 
+Recieved process 0  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 129937058056757562075002078723186468903995042303294653866724252142319866910986199051897388602391944356745069021225849295206457361284729909522092771909192334386908988606219304609704504012192582240872645119850173166632963771152193038060158699879024055193185156455860899278420110520695750433647084264078050554061
+  public exponent: 65537
+Recieved process 1  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 112478990040032612778611492383397151068199862313163600209959937213037078058690714979620868852323958056442953532905885994307201301127031946264234183939545061724426276457584777818383901553192878901831669816372649346726072982455012072326908653502670017339927770965255671364896314677208958315726409074121387856841
+  public exponent: 65537
+Recieved process 2  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 94135326648149995172927188674368122021019055187670648137732859880882842124435480572771186990571935160798882813952685066676034260019653047055440767532123270719275249074237967377446787652208696569344700248537324491057356229181938777133747791080371145072419406137282151036160284296239778301868070166881573389231
+  public exponent: 65537
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wayne Blaine from 0
+Received UVB: Thu Mar 04 00:21:39 GMT 2021 John Smith from 0
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Julie Wilson from 0
+3  recieved
+1  recieved
+2  recieved
+Received UVB: Thu Mar 04 00:21:40 GMT 2021 Joe Blow from 0
+4  recieved
+1 BLOCKS sent
+2 BLOCKS sent
+3 BLOCKS sent
+4 BLOCKS sent
+5 BLOCKS sent
+6 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Rita Vita from 1
+5  recieved
+7 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wei Xu from 1
+6  recieved
+8 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Sally McCutty from 1
+7  recieved
+9 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 Bruce Lee from 1
+8  recieved
+10 BLOCKS sent
+11 BLOCKS sent
+12 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Helen Keller from 2
+9  recieved
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Abraham Lincoln from 2
+10  recieved
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 John Kennedy from 2
+11  recieved
+Received UVB: Thu Mar 04 00:21:45 GMT 2021 Joe DiMaggio from 2
+12  recieved
+Starting the Unverified Block Priority Queue Consumer thread.
+
+John Smith Thu Mar 04 00:21:39 GMT 2021
+Joe Blow Thu Mar 04 00:21:40 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....15459 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: a34b8a
+Joe Blow verified by 1
+ ADDING BLOCK TO blockChain...... 
+Rita Vita Thu Mar 04 00:21:41 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....2449 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 4efe62
+Julie Wilson Thu Mar 04 00:21:41 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....10746 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 217c10
+Julie Wilson verified by 1
+ ADDING BLOCK TO blockChain...... 
+Wayne Blaine Thu Mar 04 00:21:42 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....6958 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: cf1353
+Wayne Blaine verified by 1
+ ADDING BLOCK TO blockChain...... 
+Helen Keller Thu Mar 04 00:21:42 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....16124 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 9afcb1
+Helen Keller verified by 1
+ ADDING BLOCK TO blockChain...... 
+Wei Xu Thu Mar 04 00:21:42 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....7439 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: d099d4
+Abraham Lincoln Thu Mar 04 00:21:43 GMT 2021
+Sally McCutty Thu Mar 04 00:21:43 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....14416 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: aa16dd
+John Kennedy Thu Mar 04 00:21:44 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....878 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 836950
+John Kennedy verified by 1
+ ADDING BLOCK TO blockChain...... 
+Bruce Lee Thu Mar 04 00:21:44 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....36 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 4f71df
+Joe DiMaggio Thu Mar 04 00:21:45 GMT 2021
+
+Last login: Thu Mar  4 00:19:47 on ttys000
+ojc@Olisas-Air-2 ~ % cd /Users/ojc/Desktop/test/BlockChain 
+ojc@Olisas-Air-2 BlockChain % java -cp ".:gson-2.8.2.jar" BlockChain 2
+Process 2 private key generated 
+Starting Key Server input thread using 4712
+Starting the Unverified Block Server input thread using 4822
+Starting the Blockchain server input thread using 4932
+Timestamp: Thu Mar 04 00:21:42 GMT 2021 at process 2
+Timestamp: Thu Mar 04 00:21:43 GMT 2021 at process 2
+Timestamp: Thu Mar 04 00:21:44 GMT 2021 at process 2
+Timestamp: Thu Mar 04 00:21:45 GMT 2021 at process 2
+ Dummy block added 
+Recieved process 0  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 129937058056757562075002078723186468903995042303294653866724252142319866910986199051897388602391944356745069021225849295206457361284729909522092771909192334386908988606219304609704504012192582240872645119850173166632963771152193038060158699879024055193185156455860899278420110520695750433647084264078050554061
+  public exponent: 65537
+Recieved process 1  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 112478990040032612778611492383397151068199862313163600209959937213037078058690714979620868852323958056442953532905885994307201301127031946264234183939545061724426276457584777818383901553192878901831669816372649346726072982455012072326908653502670017339927770965255671364896314677208958315726409074121387856841
+  public exponent: 65537
+Recieved process 2  public key
+Sun RSA public key, 1024 bits
+  params: null
+  modulus: 94135326648149995172927188674368122021019055187670648137732859880882842124435480572771186990571935160798882813952685066676034260019653047055440767532123270719275249074237967377446787652208696569344700248537324491057356229181938777133747791080371145072419406137282151036160284296239778301868070166881573389231
+  public exponent: 65537
+Received UVB: Thu Mar 04 00:21:39 GMT 2021 John Smith from 0
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Julie Wilson from 0
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wayne Blaine from 0
+Received UVB: Thu Mar 04 00:21:40 GMT 2021 Joe Blow from 0
+2  recieved
+4  recieved
+1  recieved
+3  recieved
+Received UVB: Thu Mar 04 00:21:41 GMT 2021 Rita Vita from 1
+5  recieved
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Wei Xu from 1
+6  recieved
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Sally McCutty from 1
+7  recieved
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 Bruce Lee from 1
+8  recieved
+1 BLOCKS sent
+2 BLOCKS sent
+3 BLOCKS sent
+4 BLOCKS sent
+5 BLOCKS sent
+6 BLOCKS sent
+7 BLOCKS sent
+8 BLOCKS sent
+9 BLOCKS sent
+10 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:42 GMT 2021 Helen Keller from 2
+9  recieved
+11 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:43 GMT 2021 Abraham Lincoln from 2
+10  recieved
+Received UVB: Thu Mar 04 00:21:44 GMT 2021 John Kennedy from 2
+11  recieved
+12 BLOCKS sent
+Received UVB: Thu Mar 04 00:21:45 GMT 2021 Joe DiMaggio from 2
+12  recieved
+Starting the Unverified Block Priority Queue Consumer thread.
+
+John Smith Thu Mar 04 00:21:39 GMT 2021
+Joe Blow Thu Mar 04 00:21:40 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....11155 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: d0bdee
+Julie Wilson Thu Mar 04 00:21:41 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....14260 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: d7d435
+ Already in blockChain...... 
+Rita Vita Thu Mar 04 00:21:41 GMT 2021
+Wayne Blaine Thu Mar 04 00:21:42 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....13275 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: eece00
+Helen Keller Thu Mar 04 00:21:42 GMT 2021
+Wei Xu Thu Mar 04 00:21:42 GMT 2021
+Abraham Lincoln Thu Mar 04 00:21:43 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....4650 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: 68713e
+Abraham Lincoln verified by 2
+ ADDING BLOCK TO blockChain...... 
+Sally McCutty Thu Mar 04 00:21:43 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....11617 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: f4923d
+Sally McCutty verified by 2
+ ADDING BLOCK TO blockChain...... 
+John Kennedy Thu Mar 04 00:21:44 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....5067 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: d3bf05
+Bruce Lee Thu Mar 04 00:21:44 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....17927 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: c5c9fb
+Bruce Lee verified by 2
+ ADDING BLOCK TO blockChain...... 
+Joe DiMaggio Thu Mar 04 00:21:45 GMT 2021
+BLOCK SUCCESFULLY VERIFIED 
+Doing work.....11777 IS less than 20,000 so puzzle solved!
+The seed (puzzle answer) was: e8087c
+Joe DiMaggio verified by 2
+ ADDING BLOCK TO blockChain...... 
+
